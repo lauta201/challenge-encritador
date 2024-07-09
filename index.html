@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo-alura.png" alt="Logo de Alura" class="logo-alura">
+        </div>
+        
+    </header>
+    <main class="container">
+        
+        <section class="conteiner-1">
+            <div>
+                <input type="text" class="conteiner_input" placeholder="Ingrese el texto aqui">
+            </div>
+            
+        
+            <div class="conteiner_botones">
+                <div class="conteiner_botones_informacion">
+                    <p class="informacion"><span class="exclamacion"><img src="img/signo-exclamacion.png" alt="Signo de exclamacion"></span>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="conteiner_botones_encriptar">
+                    <button class="boton_encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                    <button class="boton_desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
+                </div>
+                
+            </div>
+        </section>
+        <section class="conteiner-2">
+            <div class="area-encriptado">
+                <textarea class="msn-encriptado"></textarea>
+                <button  class="boton-copiar" onclick="copiar()" >copiar</button>
+            </div>
+            
+        </section>
+        
+        
+    </main>
+    <footer></footer>
+</body>
+<script src="script.js"></script>
+</html>
